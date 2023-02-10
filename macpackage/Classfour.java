@@ -3,6 +3,8 @@ package macpackage;
 public class Classfour {
 	public static void main(String[] args) {
 		
+		int num1= 4,num2= 5;
+		
 		System.out.println(true||true);//finding the first true value
 		System.out.println(true||false);
 		System.out.println(false||true);
@@ -26,6 +28,11 @@ public class Classfour {
 		System.out.println(num++);
 		System.out.println(++num);
 		System.out.println(num);
+		
+		if (num1 % 2==0)
+			System.out.println("this is an even number");
+		else
+			System.out.println("this is an odd number");
 		
 	}
 }
