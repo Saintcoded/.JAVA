@@ -3,9 +3,9 @@ package macpackage;
 public class Class {
     int num1=5;
    int num2=7;
-   static int num3;
+   static int num3; //it changes it for all num3
    static int num4 = 5;
-   public void evolv() {
+   public void evolv() {//it can be seen in other classes
 
    }
    public static void dataTypes(){//method static makes it possible to run with out creating an object and public makes it run in another package
