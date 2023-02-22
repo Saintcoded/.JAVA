@@ -17,7 +17,7 @@ public class ShutDownPC {
 	            System.err.println("Unsupported operating system");
 	        }
 	    } catch(Exception e) {
-	        System.out.println("shutdown error");
+	        System.err.println("shutdown error");
 	        e.printStackTrace();
 	    }
 	    
@@ -31,7 +31,7 @@ public class ShutDownPC {
 	            System.err.println("Unsupported operating system");
 	        }
 	    } catch(Exception e) {
-	        System.out.println("restart error");
+	        System.err.println("restart error");
 	        e.printStackTrace();
 	    }
 	    
@@ -45,7 +45,7 @@ public class ShutDownPC {
 	            System.err.println("Unsupported operating system");
 	        }
 	    } catch(Exception e) {
-	        System.out.println("suspend error");
+	        System.err.println("suspend error");
 	        e.printStackTrace();
 	    }   
 	}
@@ -56,10 +56,10 @@ public class ShutDownPC {
 	        } else if ("Windows 8.1".equals(os) || "Windows 8.0".equals(os) || "Windows 10".equals(os)) {
 	            runtime.exec("Rundll32.exe user32.dll,LockWorkStation");
 	        } else {
-	            System.out.println("Unsupported operating system");
+	            System.err.println("Unsupported operating system");
 	        }
 	    } catch(Exception e) {
-	        System.out.println("pc lock error");
+	        System.err.println("pc lock error");
 	        e.printStackTrace();
 	    }
 	    
