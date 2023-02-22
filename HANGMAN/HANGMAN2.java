@@ -18,13 +18,15 @@ public class HANGMAN2 {
 		switch (call) {
 		case 1:
 			playgame();
+			 break;
 		case 2:
 			viewinstruction();
+			break;
 		case 3:
 			exitgame();
+			break;
 		default:
-			System.err.println("INVALID INPUT");
-			
+			System.err.println("INVALID INPUT");	
 		}
 		
 //		if ( call==3 )
@@ -42,7 +44,7 @@ public class HANGMAN2 {
 		HANGMAN2 calll=new HANGMAN2();
 		System.out.println("1. ....Play Game.....");
 		System.out.println("2. ...View Instruction....");
-		System.out.println("3. ....Exit game.....");
+		System.out.println("3. ....Exit game....."+"\n");
 		calll.called();
 		
 	}
