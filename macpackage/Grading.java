@@ -3,25 +3,27 @@ package macpackage;
 public class Grading {
 	
 	public void grade(int score) {
+		String grade;
 		System.out.print("WHATS YOUR SCORE ? "+ score+ "\n");
 		if (score>=100)
-			System.out.println("BOSS YOU TOO GOOD ABEG!!");
+			grade="BOSS";
 		
 		else if (score>=70)
-		System.out.println("YOUR GRADE IS A1");
+		grade="A1";
 		
 		else if (score>=65)
-		System.out.println("YOUR GRADE IS B2");
+			grade="B2";
 		
 		else if (score>=50)
-		System.out.println("YOUR GRADE IS C5");
+			grade="C5";
 		
 		else if (score>=30)
-		System.out.println("YOUR GRADE IS D5");
+			grade="D4";
 		
 		else
-		System.out.println("YOUR GRADE IS F9");
+			grade="F9";
 		
+		System.out.println("YOUR GRADE IS "+ grade );
 	}
 
 	public static void main(String[] args) {
