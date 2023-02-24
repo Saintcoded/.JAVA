@@ -8,16 +8,16 @@ public class Hangman2 {
 		System.out.println("2. ...View Instruction....");
 		System.out.println("3. ....Exit game....."+"\n");
 	}
-	public void playgame() {
+	 void playgame() {
 		System.out.println("play game has been called!");
 	}
-	public void viewinstruction() {
+	 void viewinstruction() {
 		System.out.println("view instruction has been called!");
 	}
-	public void exitgame() {
+	 void exitgame() {
 		System.out.println("exit game has been called!");
 	}
-	public void called() {
+	 void called() {
 		menu();
 		
 		Scanner sc= new Scanner(System.in);
