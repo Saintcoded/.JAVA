@@ -9,7 +9,8 @@ public class Compair {
 		
 		String word="java is simple".toUpperCase();;
 		 Scanner scan= new Scanner(System.in);
-		 System.out.print("INPUT VALUE: "); String input=scan.nextLine().toUpperCase();
+		 System.out.print("INPUT VALUE: "); 
+		 String input=scan.nextLine().toUpperCase();
 		
 		 
 		 for (int i=0; i<word.length();) {

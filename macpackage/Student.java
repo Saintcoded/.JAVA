@@ -19,8 +19,13 @@ public class Student {
 	
 
 	public static void main(String[] args) {
+		
 		Student call=new Student("dammy","mac","mathematics",20);
-		call.display();
+		System.out.println(call.getClass());
+		System.out.println(call.getClass().getName());
+		System.out.println(call.getClass().getSimpleName());
+		
+//		call.display();
 		
 		
 
