@@ -1,4 +1,4 @@
-import macpackage.Student;
+import macpackages.Student;
 
 public class CallClass {
 	
